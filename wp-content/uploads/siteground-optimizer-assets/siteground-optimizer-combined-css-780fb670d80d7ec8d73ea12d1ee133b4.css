@@ -1745,10 +1745,7 @@ button:active,
 .face {
   width: 100%;
   position: relative;
-  /* Show default image */
-  /* Descriptions */
-  /* Inline media queries */
-  /* Full sliding half face experience */
+  
 }
 .face .face-img {
   display: block;
@@ -1981,19 +1978,7 @@ button:active,
 }
 /* Form Styles */
 .form {
-  /* Mailchimp for WP - Error/warning/success messages */
-  /* Contact Form 7 - Error/warning/success messages */
-  /* Didn't Send */
-  /* Some Errors */
-  /*	.wpcf7 form.invalid .wpcf7-response-output,
-	.wpcf7 form.unaccepted .wpcf7-response-output,
-	.wpcf7 form.spam .wpcf7-response-output{
-		border:#EBD8AB 1px solid;
-		background:#faf6ec;
-		.rounded(3px);
-		color:#946918;		
-	}*/
-  /* Sent successfully */
+ 
 }
 .form input[type="text"],
 .form input[type="email"],
