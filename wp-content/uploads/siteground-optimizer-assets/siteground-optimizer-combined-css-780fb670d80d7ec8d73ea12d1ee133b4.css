@@ -221,7 +221,7 @@ span.text-wide {
 /* Page =================================================== */
 html {
   background: #ffffff;
-  font-size: 62.5%;
+  font-size: 61%;
   -webkit-overflow-scrolling: touch;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -239,7 +239,7 @@ body {
 }
 header {
   background: #111;
-  height: 62px;
+  height: 55px;
   padding: 0 5%;
   width: 90%;
   position: absolute;
@@ -582,18 +582,7 @@ ol.ol li {
   font-style: normal;
 ;font-display: swap;
 }
-/*@font-face {
-    font-family: 'proxima nova regular';
-    src: url('https://www.adhamdannaway.com/wp-content/themes/dannaway/fonts/proximanova-regular-webfont.eot');
-    src: url('https://www.adhamdannaway.com/wp-content/themes/dannaway/fonts/proximanova-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('https://www.adhamdannaway.com/wp-content/themes/dannaway/fonts/proximanova-regular-webfont.woff') format('woff'),
-         url('https://www.adhamdannaway.com/wp-content/themes/dannaway/fonts/proximanova-regular-webfont.ttf') format('truetype'),
-         url('https://www.adhamdannaway.com/wp-content/themes/dannaway/fonts/proximanova-regular-webfont.svg#proxima_nova_rgregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-;font-display: swap;
-}*/
+=
 @font-face {
   font-family: 'proxima nova light';
   src: url('../../themes/dannaway/fonts/proximanova-light-webfont.eot');
@@ -2249,7 +2238,7 @@ button:active,
   .logo {
     height: 92px;
     width: 62px;
-    background: url(../../themes/dannaway/images/sprite.png) 0px -93px no-repeat;
+    background: url(../../themes/dannaway/images/sprite.png) 0px -92px no-repeat;
   }
   header nav {
     float: right;
