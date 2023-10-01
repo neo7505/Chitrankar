@@ -1,4 +1,11 @@
-
+/*   
+Theme Name: Adham Dannaway
+Theme URI: https://www.adhamdannaway.com/
+Description: Handcrafted portfolio website of Adham Dannaway.
+Author: Adham Dannaway
+Author URI: https://www.adhamdannaway.com/
+*/
+/* Reset =================================================== */
 html,
 body,
 body div,
@@ -214,7 +221,7 @@ span.text-wide {
 /* Page =================================================== */
 html {
   background: #ffffff;
-  font-size: 62%;
+  font-size: 61%;
   -webkit-overflow-scrolling: touch;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -232,9 +239,9 @@ body {
 }
 header {
   background: #111;
-  height: 62px;
+  height: 55px;
   padding: 0 5%;
-  width: 100%;
+  width: 90%;
   position: absolute;
   z-index: 1000;
   /* Navigation */
@@ -243,14 +250,13 @@ header nav {
   display: none;
   background: #222222;
   position: absolute;
-  top: 53px;
+  top: 55px;
   right: 0px;
   z-index: 1000;
   width: 100%;
-  font-size: 18px;
+  font-size: 24px;
   font-size: 2.4rem;
   text-align: center;
-  font-family: proxima nova light;
 }
 header nav li {
   height: 6.4rem;
@@ -258,8 +264,8 @@ header nav li {
   display: block;
   border-top: #212121 solid 1px;
   border-bottom: #363636 solid 1px;
-  font-size: 2rem;
-  
+  font-family: proxima-nova;
+  font-size: 2.3rem;
 }
 header nav li a {
   display: block;
@@ -414,7 +420,7 @@ h1,
   font-size: 80px;
   font-size: 8rem;
   line-height: 1.2;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.06em;
 }
 h2,
 .h2 {
@@ -1808,7 +1814,6 @@ button:active,
     font-size: 26px;
     font-size: 2.6rem;
   }
-
 }
 @media only screen and (min-width: 414px) {
   .face .coder h1,
@@ -2632,7 +2637,7 @@ button:active,
   .pie-chart .coder {
     float: right;
     margin-bottom: 0;
-    text-align: right;
+    text-align: left;
   }
   .pie-chart .designer {
     float: left;
