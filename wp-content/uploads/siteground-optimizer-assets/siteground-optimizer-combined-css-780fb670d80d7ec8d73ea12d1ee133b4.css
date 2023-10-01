@@ -214,7 +214,7 @@ span.text-wide {
 /* Page =================================================== */
 html {
   background: #ffffff;
-  font-size: 61%;
+  font-size: 62%;
   -webkit-overflow-scrolling: touch;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -223,7 +223,7 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
-  font-family: "proximanova-light-webfont", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+  font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
   background-color: transparent;
   font-size: 18px;
   font-size: 1.8rem;
@@ -234,7 +234,7 @@ header {
   background: #111;
   height: 62px;
   padding: 0 5%;
-  width: 90%;
+  width: 100%;
   position: absolute;
   z-index: 1000;
   /* Navigation */
@@ -243,13 +243,14 @@ header nav {
   display: none;
   background: #222222;
   position: absolute;
-  top: 62px;
+  top: 53px;
   right: 0px;
   z-index: 1000;
   width: 100%;
-  font-size: 24px;
+  font-size: 18px;
   font-size: 2.4rem;
   text-align: center;
+  font-family: proxima nova light;
 }
 header nav li {
   height: 6.4rem;
@@ -257,13 +258,15 @@ header nav li {
   display: block;
   border-top: #212121 solid 1px;
   border-bottom: #363636 solid 1px;
+  font-size: 2rem;
+  
 }
 header nav li a {
   display: block;
   color: #FFF;
   line-height: 6.4rem;
   text-decoration: none;
-  text-transform: lowercase;
+  text-transform: underworld;
 }
 .logo {
   height: 62px;
@@ -411,7 +414,7 @@ h1,
   font-size: 80px;
   font-size: 8rem;
   line-height: 1.2;
-  letter-spacing: -0.06em;
+  letter-spacing: -0.02em;
 }
 h2,
 .h2 {
@@ -1805,6 +1808,7 @@ button:active,
     font-size: 26px;
     font-size: 2.6rem;
   }
+
 }
 @media only screen and (min-width: 414px) {
   .face .coder h1,
@@ -2628,7 +2632,7 @@ button:active,
   .pie-chart .coder {
     float: right;
     margin-bottom: 0;
-    text-align: left;
+    text-align: right;
   }
   .pie-chart .designer {
     float: left;
