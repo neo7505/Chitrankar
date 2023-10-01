@@ -1,11 +1,4 @@
-/*   
-Theme Name: Adham Dannaway
-Theme URI: https://www.adhamdannaway.com/
-Description: Handcrafted portfolio website of Adham Dannaway.
-Author: Adham Dannaway
-Author URI: https://www.adhamdannaway.com/
-*/
-/* Reset =================================================== */
+
 html,
 body,
 body div,
@@ -230,7 +223,7 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
-  font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+  font-family: "proximanova-light-webfont", "Helvetica Neue", Helvetica, Arial, Sans-serif;
   background-color: transparent;
   font-size: 18px;
   font-size: 1.8rem;
@@ -239,7 +232,7 @@ body {
 }
 header {
   background: #111;
-  height: 55px;
+  height: 62px;
   padding: 0 5%;
   width: 90%;
   position: absolute;
